@@ -5,7 +5,7 @@ This project combines two older repostiories, one for the backend and the other 
 ## Documentation
 https://drive.google.com/drive/folders/12xQkKaKSFhXym1uZsrDPc1l_LAQf_f62?usp=sharing
 
-## Projekt Board
+## Project-Board
 https://github.com/users/saltyniggo/projects/6
 
 
@@ -28,8 +28,8 @@ C# and Linq
   - System.IdentityModel.Tokens.Jwt
     
 #### Project Setup
-cd backend
-dotnet watch run
+- cd backend
+- dotnet watch run
 
 ### Frontend: 
 https://github.com/saltyniggo/BAMBUS/tree/main
@@ -45,9 +45,9 @@ HTML, CSS, JS
   - vuex
 
 #### Project set up
-cd /frontend
-npm install
-npm run dev
+- cd /frontend
+- npm install
+- npm run dev
 
 
 ## For Full Functionality / Troubleshooting
