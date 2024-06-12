@@ -1,5 +1,7 @@
 # BAMBUS-fullstack
 
+## Bücher-Ausleih-Mit-Benachrichtigungen-Und-Scannen Projekt 
+
 This project combines two older repostiories, one for the backend and the other for the fronted. Together they create a website that allows a MANGER to manage a catalog of items that can be borrowed by USERS. The manager can add items and see borrowing statistics. The users can rate the items, request a renewal of the items from the manager and report damage. An ADMIN has the ability to reset passwords and delete accounts.
 
 ## Documentation
