@@ -26,6 +26,10 @@ C# and Linq
   - Microsoft.IdentityModel.Tokens
   - Swashbuckle.AspNetCore
   - System.IdentityModel.Tokens.Jwt
+    
+#### Project Setup
+cd backend
+dotnet watch run
 
 ### Frontend: 
 https://github.com/saltyniggo/BAMBUS/tree/main
@@ -40,13 +44,19 @@ HTML, CSS, JS
   - vue-router
   - vuex
 
+#### Project set up
+cd /frontend
+npm install
+npm run dev
 
 
-## For Full Functionality
+## For Full Functionality / Troubleshooting
 
-Enable smooth scrooling in Browser
+### This Project only works locally, so make sure the localhost addresses are correctly, in case your PC uses another one.
 
-### Chrome: 
+###Enable smooth scrooling in Browser
+
+#### Chrome: 
 1. chrome//flags
 2. enable smooth scrolling
 
