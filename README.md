@@ -1,8 +1,9 @@
 # BAMBUS-fullstack
 
-## Dokumentation
-https://drive.google.com/drive/folders/12xQkKaKSFhXym1uZsrDPc1l_LAQf_f62?usp=sharing
+This project combines two older repostiories, one for the backend and the other for the fronted. Together they create a website that allows a MANGER to manage a catalog of items that can be borrowed by USERS. The manager can add items and see borrowing statistics. The users can rate the items, request a renewal of the items from the manager and report damage. An ADMIN has the ability to reset passwords and delete accounts.
 
+## Documentation
+https://drive.google.com/drive/folders/12xQkKaKSFhXym1uZsrDPc1l_LAQf_f62?usp=sharing
 
 ## Projekt Board
 https://github.com/users/saltyniggo/projects/6
@@ -12,7 +13,7 @@ https://github.com/users/saltyniggo/projects/6
 ### Backend: 
 https://github.com/saltyniggo/Bambus-Backend
 
-C# und Linq
+C# and Linq
 
 #### Packages: 
   - Automapper.Extension.Microsoft.DependencyInjection
