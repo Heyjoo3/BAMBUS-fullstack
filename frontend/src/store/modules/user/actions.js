@@ -8,7 +8,9 @@ import ItemServices from "@/store/services/ItemServices";
 export default {
   async loginUser({ commit, dispatch }, payload) {
     try {
+      console.log(payload);
       const loginResponse = await UserServices.Login(payload);
+      console.log(loginResponse.data);
       if (!loginResponse.data.success) {
         throw new Error("Invalid email or password");
       }

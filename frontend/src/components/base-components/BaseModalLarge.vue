@@ -95,7 +95,7 @@ export default {
 .modal {
   position: fixed;
   width: 60vw;
-  min-height: 60vh;
+  max-height: 60vh;
   top: 20vh;
   left: 20vw;
   z-index: 200;
@@ -112,7 +112,7 @@ export default {
 }
 
 .modal-content {
-  overflow-y: auto;
+  overflow-y: scroll;
   padding: 1rem;
   max-height: 70%;
 }
