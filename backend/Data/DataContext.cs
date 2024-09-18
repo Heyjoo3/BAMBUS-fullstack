@@ -69,7 +69,7 @@ namespace Bambus.Data
             new MagazineModel { ItemId = 2, Author = "Author2", Title = "Title2", Category = "Category2", ISSN = "ISSN2", CurrentLoanId = 0, Condition = Condition.NeedsCheck, Reservations = new List<int>(), AvgRating = 2.75 },
             new MagazineModel { ItemId = 3, Author = "Author3", Title = "Title3", Category = "Category3", ISSN = "ISSN3", CurrentLoanId = 0, Condition = Condition.NeedsCheck, Reservations = new List<int>(), AvgRating = 3 },
             new MagazineModel { ItemId = 44, Author = "Anne", Title = "Vogue", Category = "Mode", ISSN = "d234se", CurrentLoanId = 220, Condition = Condition.Damaged, Reservations = new List<int>(), AvgRating = 4 },
-            new MagazineModel { ItemId = 45, Author = "Chuck Shurley", Title = "Supernatural Evangelium", Category = "Religion", ISSN = "1111111111111111", CurrentLoanId = 221, Condition = Condition.OK, Reservations = new List<int>(), AvgRating = 3 }
+            new MagazineModel { ItemId = 45, Author = "Chuck Shurley", Title = "Supernatural Evangelium", Category = "Religion", ISSN = "1111111111111111", CurrentLoanId = 221, Condition = Condition.OK, Reservations = new List<int>(), AvgRating = 5 }
                 );
 
             modelBuilder.Entity<BookModel>().HasData(
