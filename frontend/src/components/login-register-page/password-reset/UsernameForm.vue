@@ -1,7 +1,7 @@
 <template>
   <form class="email-form">
     <label for="email"
-      >Bitte gebe Deine Emailadresse ein, um eine Passwortzurücksetzung zu
+      >Bitte gebe Deine E-Mailadresse ein, um eine Passwort-Zurücksetzung zu
       benatragen.
     </label>
     <Form v-slot="{ validate }" @submit="onSubmit">

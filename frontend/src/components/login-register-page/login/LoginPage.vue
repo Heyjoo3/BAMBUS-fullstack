@@ -1,7 +1,7 @@
 <template>
   <div class="login-page">
     <base-content-container class="login-page-content">
-      <h1 slot="header">Login</h1>
+      <h1 slot="header">Anmeldung</h1>
       <login-credential-form id="login-credential-form" />
       <p>Noch kein Konto?</p>
       <base-text-button @click="$router.push('/register')">

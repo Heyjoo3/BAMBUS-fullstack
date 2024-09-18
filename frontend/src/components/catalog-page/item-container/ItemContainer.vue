@@ -58,9 +58,7 @@
           @openReportModal="openReportModal"
         />
       </div>
-      <p v-if="item.condition == 2" class="damged-item-warning">
-        !!!Beschädigt!!!
-      </p>
+      <p v-if="item.condition == 2" class="damged-item-warning">!Beschädigt!</p>
       <p v-if="item.condition == 1" class="damged-item-warning">
         ggf. bschädigt
       </p>

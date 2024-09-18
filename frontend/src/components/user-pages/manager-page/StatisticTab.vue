@@ -1,7 +1,7 @@
 <template>
   <div>
     <br />
-    <h1>Stats</h1>
+    <h1>Statistik</h1>
     <br />
     <base-content-container>
       <stats-table></stats-table>

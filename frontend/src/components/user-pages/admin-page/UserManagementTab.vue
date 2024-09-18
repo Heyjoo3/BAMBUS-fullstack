@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>User Management</h1>
+    <h1>Benutzer Management</h1>
     <br />
     <base-content-container>
       <all-users-table></all-users-table>
