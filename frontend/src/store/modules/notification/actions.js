@@ -1,6 +1,7 @@
 import router from "../../../router/index.js";
 import MessageService from "@/store/services/MessageService.js";
 import LoanService from "@/store/services/LoanService.js";
+import UserServices from "@/store/services/UserServices.js";
 
 export default {
   async checkDueDates({ commit, rootState }) {
@@ -218,8 +219,8 @@ export default {
   },
 
   async userRegistersAccount({}, payload) {
-    const admins = await rootState.userStore.users.filter(
-      (user) => user.role === 4
+    const admins = (await UserServices.GetAllUsers()).data.data.filter(
+      (user) => user.role === 2
     );
     admins.forEach(async (admin) => {
       await MessageService.CreateMessage({
