@@ -5,7 +5,7 @@
       <username-form />
       <p>Sie haben Ihr Passwort wieder gefunden?</p>
       <base-text-button @click="this.$router.push({ name: 'login' })"
-        >Zurück zum Login</base-text-button
+        >Zurück zur Anmeldung</base-text-button
       >
     </base-content-container>
   </div>

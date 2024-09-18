@@ -2,7 +2,7 @@
   <div>
     <label for="sort">Sortieren nach: </label>
     <select name="sort" id="sort" v-model="sortedBy">
-      <option value="default">Default</option>
+      <option value="default">Standart</option>
       <option value="title">Titel A-Z</option>
       <option value="titleDesc">Titel Z-A</option>
       <option value="author">Autor A-Z</option>

@@ -2,7 +2,7 @@
   <div class="new-item-container">
     <base-content-container>
       <template v-slot:header>
-        <h1>Neues Item hinzufügen</h1>
+        <h1>Neuen Artikel hinzufügen</h1>
       </template>
       <template v-slot:body>
         <div class="warning">

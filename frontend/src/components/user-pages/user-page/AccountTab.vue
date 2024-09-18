@@ -19,9 +19,9 @@
           </form>
 
           <form @submit.prevent="changeEmail(newEmail)">
-            <h2>Email ändern</h2>
+            <h2>E-Mail ändern</h2>
             <div class="label-input">
-              <label for="newEmail">Neue Email:</label>
+              <label for="newEmail">Neue E-Mail:</label>
               <input type="email" id="newEmail" v-model="newEmail" required />
             </div>
             <button type="submit">Speichern</button>

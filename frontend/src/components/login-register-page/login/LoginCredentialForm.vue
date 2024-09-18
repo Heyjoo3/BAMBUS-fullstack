@@ -22,7 +22,7 @@
       <i v-if="showPassword" class="fas fa-eye"></i>
       <i v-else class="fa-regular fa-eye"></i>
     </button>
-    <base-text-button @click="loginUser(loginForm)">Login</base-text-button>
+    <base-text-button @click="loginUser(loginForm)">Anmelden</base-text-button>
   </form>
 </template>
 

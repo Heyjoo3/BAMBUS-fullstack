@@ -1,7 +1,7 @@
 <template>
   <div class="item-information">
-    <p>Item ID: {{ itemId }}</p>
-    <p>Item Zustand: {{ conditionText[condition] }}</p>
+    <p>Artikel ID: {{ itemId }}</p>
+    <p>Artikel Zustand: {{ conditionText[condition] }}</p>
   </div>
 </template>
 

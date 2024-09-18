@@ -46,11 +46,6 @@ namespace Bambus.Services.Messages
                     return response;
                 }
             }
-            else if (newMessage.Type == MessageType.UserRegistered)
-            {
-                UserModel admin = await _context.Users.FirstOrDefaultAsync(user => user.Role == Role.Admin);
-                message.ReceiverId = admin.UserId;
-            }
             else if (newMessage.Type == MessageType.DamageReport 
                 || newMessage.Type == MessageType.ExtensionRequest)
             {

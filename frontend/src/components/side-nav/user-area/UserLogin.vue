@@ -1,7 +1,7 @@
 <template>
   <div>
     <i class="fa-solid fa-arrow-right-to-bracket" style="color: #f2eae4"></i>
-    <p @click="$emit('clickedLogin')">Login</p>
+    <p @click="$emit('clickedLogin')">Anmelden</p>
   </div>
 </template>
 
