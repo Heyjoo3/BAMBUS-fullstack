@@ -32,6 +32,31 @@ C# and Linq
 #### Project Setup
 - cd backend
 - dotnet watch run
+- dotnet ef migrations add Init
+- In der Migriation file:
+
+```
+public partial class InitialCreate : Migration
+{
+    protected override void Up(MigrationBuilder migrationBuilder)
+    {
+        // Create the sequence
+        migrationBuilder.Sql("CREATE SEQUENCE dbo.GlobalIdSequence AS INT START WITH 1 INCREMENT BY 1");
+ 
+        // Other migration code...
+    }
+ 
+    protected override void Down(MigrationBuilder migrationBuilder)
+    {
+        // Drop the sequence
+        migrationBuilder.Sql("DROP SEQUENCE dbo.GlobalIdSequence");
+ 
+        // Other rollback code...
+    }
+}
+
+```
+- dotnet ef database update
 
 ### Frontend: 
 https://github.com/saltyniggo/BAMBUS/tree/main
