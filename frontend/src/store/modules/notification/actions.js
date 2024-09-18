@@ -222,7 +222,9 @@ export default {
     const admins = (await UserServices.GetAllUsers()).data.data.filter(
       (user) => user.role === 2
     );
-    admins.forEach(async (admin) => {
+    console.log(admins);
+    for (const admin of admins) {
+      console.log(admin.userId);
       await MessageService.CreateMessage({
         senderId: payload.userId,
         receiverId: admin.userId,
@@ -236,7 +238,7 @@ export default {
           return;
         }
       });
-    });
+    }
   },
 
   async userRequestsPasswordReset({ dispatch }, payload) {
